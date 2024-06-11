@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MB50 Limited provides solutions for hospitals (healthcare apps), schools, solar panel sales, installation, and maintenance, generators sales, installation, and maintenance, and hospital equipment sales, installation, and maintenance.">
+    <meta name="keywords" content="SaaS company, bespoke solutions, hospital solutions, healthcare apps, school solutions, solar panel sales, solar panel installation, solar panel maintenance, generator sales, generator installation, generator maintenance, hospital equipment sales, hospital equipment installation, hospital equipment maintenance">
+    <title>MB50 Limited, Providing solutions for multiple sectors including healthcare, education and power</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init({
+                publicKey: "Ku5QEQvV4L2P-vPZl",
+            });
+        })();
+    </script>
+</head>
+<body>
+    <header>
+      <a href="index.html" class="header-link">
+        <h1>MB50 Limited</h1>
+    </a>
+        <nav>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <ul>
+                <li><a class = "nav-link" href="about.html">About Us</a></li>
+                <li><a class = "nav-link" href="services.html">Our Services</a></li>
+                <li><a class = "nav-link" href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+        <!-- About Start -->
+        <div class="container-fluid py-5">
+            <div class="container">
+                <div class="company-section">
+                    <div class="company-content">
+                        <h1 class="text-primary mb-4">Our Story <span class="fw-light text-dark"></span></h1>
+                        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet, erat non malesuada consequat, nibh erat tempus risus, vitae porttitor purus nisl vitae purus. Praesent tristique odio ut rutrum pellentesque. Fusce eget molestie est, at rutrum est.</p>
+                        <p class="mb-4">Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor.</p>
+                    </div>
+                    <div class="company-image">
+                        <img class="img-fluid" src="Images/story.png" alt="Our Story">
+                    </div>
+                </div>
+                
+                <div class="company-section reverse">
+                    <div class="company-image">
+                        <img class="img-fluid" src="Images/mission.jpg" alt="Our Mission">
+                    </div>
+                    <div class="company-content">
+                        <h1 class="text-primary mb-4">Our Mission <span class="fw-light text-dark"></span></h1>
+                        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet, erat non malesuada consequat, nibh erat tempus risus, vitae porttitor purus nisl vitae purus. Praesent tristique odio ut rutrum pellentesque. Fusce eget molestie est, at rutrum est.</p>
+                        <p class="mb-4">Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor.</p>
+                    </div>
+                </div>
+                
+                <div class="company-section">
+                    <div class="company-content">
+                        <h1 class="text-primary mb-4">Our Vision <span class="fw-light text-dark"></span></h1>
+                        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet, erat non malesuada consequat, nibh erat tempus risus, vitae porttitor purus nisl vitae purus. Praesent tristique odio ut rutrum pellentesque. Fusce eget molestie est, at rutrum est.</p>
+                        <p class="mb-4">Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor.</p>
+                    </div>
+                    <div class="company-image">
+                        <img class="img-fluid" src="Images/vision.jpg" alt="Our Vision">
+                    </div>
+                </div>
+                                            
+            </div>
+        </div>
+        <!-- About End -->
+    <footer>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="fullName" placeholder="Full Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email_id" placeholder="Email Address" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" placeholder="Enter your message here..." required></textarea>
+                </div>
+                <button type="button" onclick="SendMail()">Send</button>
+            </form>
+            <p>If you have any inquiries feel free to reach out to us.</p>
+            <p>Email: info@mb50ltd.com</p>
+            <p>Phone: +2348038170206, +2347035335982</p>
+            <img src="images/logo.png" alt="reseller partner logo" width="250" height="80">
+        </section>
+            <p>&copy; 2024 MB50 Limited. All rights reserved.</p>
+    </footer>
+
+    <!-- 
+    - custom js link
+  -->
+  <script src="script.js"></script>
+
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
